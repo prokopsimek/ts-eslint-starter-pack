@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: Automatic merge ⬇️ Dependabot ✔
+    conditions:
+      - "author=app/dependabot"
+    actions:
+      merge:
+        method: merge
